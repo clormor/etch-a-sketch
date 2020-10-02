@@ -1,4 +1,5 @@
 import React from "react";
+import EtchASketchGrid from "./EtchASketchGrid"
 
 export default function EtchASketch() {
   const message =
@@ -10,7 +11,7 @@ export default function EtchASketch() {
         <div className="container">
           <p className="lead text-muted">
             {message}
-            <a href="https://www.theodinproject.com" className="link">
+            <a href="https://www.theodinproject.com" className="link text-decoration-none">
               The Odin Project
             </a>
           </p>
@@ -18,7 +19,7 @@ export default function EtchASketch() {
       </section>
 
       <div className="album py-5">
-        <div className="container">content goes here please</div>
+        <EtchASketchGrid />
       </div>
     </main>
   );
