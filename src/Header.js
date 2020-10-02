@@ -1,17 +1,14 @@
 import React from "react";
-import AppLogo from "./images/logo.svg";
 
-export default function Header() {
+export default function Header(props) {
   return (
-    <header>
-      <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <div className="container d-flex justify-content-between">
-          <div class="navbar-brand d-flex align-items-center">
-            <img src={AppLogo} alt="Etch-A-Sketch Logo" />
-            <strong>Etch-A-Sketch</strong>
-          </div>
+    <nav className="navbar navbar-dark bg-dark">
+      <div className="container d-flex justify-content-between">
+        <div class="navbar-brand d-flex align-items-center">
+          {props.image}
+          <strong>{props.title}</strong>
         </div>
-      </nav>
-    </header>
+      </div>
+    </nav>
   );
 }

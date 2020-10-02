@@ -1,22 +1,25 @@
 import React from "react";
+import Link from "./Link"
 import BootstrapLogo from "./images/bootstrap.svg";
 import ReactLogo from "./images/react.svg";
 
 export default function Footer() {
-  const bootstrapUrl = "https://getbootstrap.com/";
-  const reactUrl = "https://reactjs.org/";
-
-  const createLink = (url, logo, text) => {
-    return (
-      <a href={url} className="link text-decoration-none">
-        {`${text} `}
-        <img src={logo} alt="Bootstrap Logo" />
-      </a>
-    );
-  };
-
-  const bootstrapLink = createLink(bootstrapUrl, BootstrapLogo, 'Bootstrap');
-  const reactLink = createLink(reactUrl, ReactLogo, 'React');
+  const bootstrapLink = (
+    <Link
+      url="https://getbootstrap.com/"
+      text="Bootstrap"
+      logo={BootstrapLogo}
+      logoAltText="Bootstrap Logo"
+    />
+  );
+  const reactLink = (
+    <Link
+      url="https://reactjs.org/"
+      text="React"
+      logo={ReactLogo}
+      logoAltText="React Logo"
+    />
+  );
 
   return (
     <footer className="footer mt-auto py-3 text-muted font-weight-light">
