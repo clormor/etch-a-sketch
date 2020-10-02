@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e486429a7c553b6b5b2148a35d833a6a",
+    "revision": "28adb09e8a1184bf66f8537e997030da",
     "url": "/etch-a-sketch/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/etch-a-sketch/static/css/2.d9ad5f5c.chunk.css"
   },
   {
-    "revision": "53610759835b4cf988e7",
-    "url": "/etch-a-sketch/static/css/main.bb2a3c2e.chunk.css"
+    "revision": "03e9150c5d6a2d2fc939",
+    "url": "/etch-a-sketch/static/css/main.ac7741fd.chunk.css"
   },
   {
     "revision": "119458be29dcc1a2b0ba",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/etch-a-sketch/static/js/2.3bf0cfaf.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "53610759835b4cf988e7",
-    "url": "/etch-a-sketch/static/js/main.7f06b4e0.chunk.js"
+    "revision": "03e9150c5d6a2d2fc939",
+    "url": "/etch-a-sketch/static/js/main.903ff3d6.chunk.js"
   },
   {
     "revision": "e0f2ea2ce5dc2e2a1b1a",
