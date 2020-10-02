@@ -1,26 +1,28 @@
 {
   "files": {
     "main.css": "/etch-a-sketch/static/css/main.050523cc.chunk.css",
-    "main.js": "/etch-a-sketch/static/js/main.8a860cfb.chunk.js",
-    "main.js.map": "/etch-a-sketch/static/js/main.8a860cfb.chunk.js.map",
+    "main.js": "/etch-a-sketch/static/js/main.5d7d0c37.chunk.js",
+    "main.js.map": "/etch-a-sketch/static/js/main.5d7d0c37.chunk.js.map",
     "runtime-main.js": "/etch-a-sketch/static/js/runtime-main.ab721cf4.js",
     "runtime-main.js.map": "/etch-a-sketch/static/js/runtime-main.ab721cf4.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/etch-a-sketch/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.c0006064.chunk.js": "/etch-a-sketch/static/js/2.c0006064.chunk.js",
-    "static/js/2.c0006064.chunk.js.map": "/etch-a-sketch/static/js/2.c0006064.chunk.js.map",
+    "static/js/2.3bf0cfaf.chunk.js": "/etch-a-sketch/static/js/2.3bf0cfaf.chunk.js",
+    "static/js/2.3bf0cfaf.chunk.js.map": "/etch-a-sketch/static/js/2.3bf0cfaf.chunk.js.map",
     "index.html": "/etch-a-sketch/index.html",
-    "precache-manifest.476e61eef7d45699cd2eaae4794cb627.js": "/etch-a-sketch/precache-manifest.476e61eef7d45699cd2eaae4794cb627.js",
+    "precache-manifest.f5b36e59c6326795e3f086c9566e4719.js": "/etch-a-sketch/precache-manifest.f5b36e59c6326795e3f086c9566e4719.js",
     "service-worker.js": "/etch-a-sketch/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/etch-a-sketch/static/css/2.d9ad5f5c.chunk.css.map",
     "static/css/main.050523cc.chunk.css.map": "/etch-a-sketch/static/css/main.050523cc.chunk.css.map",
-    "static/js/2.c0006064.chunk.js.LICENSE.txt": "/etch-a-sketch/static/js/2.c0006064.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/etch-a-sketch/static/media/logo.2a5ad586.svg"
+    "static/js/2.3bf0cfaf.chunk.js.LICENSE.txt": "/etch-a-sketch/static/js/2.3bf0cfaf.chunk.js.LICENSE.txt",
+    "static/media/bootstrap.svg": "/etch-a-sketch/static/media/bootstrap.b8af3cd5.svg",
+    "static/media/logo.svg": "/etch-a-sketch/static/media/logo.2a5ad586.svg",
+    "static/media/react.svg": "/etch-a-sketch/static/media/react.daecac57.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.ab721cf4.js",
     "static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.c0006064.chunk.js",
+    "static/js/2.3bf0cfaf.chunk.js",
     "static/css/main.050523cc.chunk.css",
-    "static/js/main.8a860cfb.chunk.js"
+    "static/js/main.5d7d0c37.chunk.js"
   ]
 }
