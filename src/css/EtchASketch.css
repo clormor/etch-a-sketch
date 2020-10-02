@@ -1,0 +1,17 @@
+.etchGrid {
+  margin: auto;
+}
+
+.etchRow {
+  margin: auto;
+  line-height: 0;
+}
+
+.etchCell {
+  border: 1px solid black;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  width: 1.5em;
+  height: 1.5em;
+}
