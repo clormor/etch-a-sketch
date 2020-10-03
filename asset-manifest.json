@@ -1,28 +1,30 @@
 {
   "files": {
     "main.css": "/etch-a-sketch/static/css/main.f489aa88.chunk.css",
-    "main.js": "/etch-a-sketch/static/js/main.000e2126.chunk.js",
-    "main.js.map": "/etch-a-sketch/static/js/main.000e2126.chunk.js.map",
+    "main.js": "/etch-a-sketch/static/js/main.52ec8325.chunk.js",
+    "main.js.map": "/etch-a-sketch/static/js/main.52ec8325.chunk.js.map",
     "runtime-main.js": "/etch-a-sketch/static/js/runtime-main.ab721cf4.js",
     "runtime-main.js.map": "/etch-a-sketch/static/js/runtime-main.ab721cf4.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/etch-a-sketch/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.3bf0cfaf.chunk.js": "/etch-a-sketch/static/js/2.3bf0cfaf.chunk.js",
-    "static/js/2.3bf0cfaf.chunk.js.map": "/etch-a-sketch/static/js/2.3bf0cfaf.chunk.js.map",
+    "static/js/2.eb144add.chunk.js": "/etch-a-sketch/static/js/2.eb144add.chunk.js",
+    "static/js/2.eb144add.chunk.js.map": "/etch-a-sketch/static/js/2.eb144add.chunk.js.map",
     "index.html": "/etch-a-sketch/index.html",
-    "precache-manifest.94f74c23d3f6687259099c0e5a22dc43.js": "/etch-a-sketch/precache-manifest.94f74c23d3f6687259099c0e5a22dc43.js",
+    "precache-manifest.66296f7d5c3b28b91c0e4427c3947ce1.js": "/etch-a-sketch/precache-manifest.66296f7d5c3b28b91c0e4427c3947ce1.js",
     "service-worker.js": "/etch-a-sketch/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/etch-a-sketch/static/css/2.d9ad5f5c.chunk.css.map",
     "static/css/main.f489aa88.chunk.css.map": "/etch-a-sketch/static/css/main.f489aa88.chunk.css.map",
-    "static/js/2.3bf0cfaf.chunk.js.LICENSE.txt": "/etch-a-sketch/static/js/2.3bf0cfaf.chunk.js.LICENSE.txt",
+    "static/js/2.eb144add.chunk.js.LICENSE.txt": "/etch-a-sketch/static/js/2.eb144add.chunk.js.LICENSE.txt",
     "static/media/bootstrap.svg": "/etch-a-sketch/static/media/bootstrap.b8af3cd5.svg",
     "static/media/logo.svg": "/etch-a-sketch/static/media/logo.2a5ad586.svg",
-    "static/media/react.svg": "/etch-a-sketch/static/media/react.daecac57.svg"
+    "static/media/pencil-fill.svg": "/etch-a-sketch/static/media/pencil-fill.febff39e.svg",
+    "static/media/react.svg": "/etch-a-sketch/static/media/react.daecac57.svg",
+    "static/media/trash-fill.svg": "/etch-a-sketch/static/media/trash-fill.25008a71.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.ab721cf4.js",
     "static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.3bf0cfaf.chunk.js",
+    "static/js/2.eb144add.chunk.js",
     "static/css/main.f489aa88.chunk.css",
-    "static/js/main.000e2126.chunk.js"
+    "static/js/main.52ec8325.chunk.js"
   ]
 }
