@@ -5,27 +5,7 @@ export default function EtchASketchGrid() {
   const gridSize = 16;
 
   const renderCell = (rowNum, colNum, gridSize) => {
-    let classes = ["etch-cell"];
-
-    if (rowNum === 0) {
-      classes.push("etch-top-row");
-    }
-
-    if (rowNum === gridSize - 1) {
-      classes.push("etch-bottom-row");
-    }
-
-    if (colNum === 0) {
-      classes.push("etch-left-col");
-    }
-
-    if (colNum === gridSize - 1) {
-      classes.push("etch-right-col");
-    }
-
-    const allClasses = classes.join(" ");
-
-    return <div className={allClasses}></div>;
+    return <div className="etch-cell"></div>;
   };
 
   const renderRow = (rowNum, gridSize) => {
