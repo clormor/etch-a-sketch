@@ -7,6 +7,8 @@
 /.pnp
 .pnp.js
 
+security/
+
 # testing
 /coverage
 

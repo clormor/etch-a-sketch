@@ -1,47 +1,54 @@
 import React from "react";
 import Image from "./Image";
-import PencilFill from "./images/pencil-fill.svg";
 import TrashFill from "./images/trash-fill.svg";
 
-export default function CommandPalette() {
-  const createCommand = (icon, altText, dropdown, onClick) => {
-    if (dropdown) {
-      return (
-        <div className="btn-group-sm p-3" role="group">
-          <button
-            type="button"
-            className="btn btn-outline-secondary dropdown-toggle"
-            id="btnGroupDrop1"
-            data-toggle="dropdown"
-            aria-haspopup="true"
-            aria-expanded="false"
-          >
-            <Image src={icon} altText={altText} />
-          </button>
-          <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-            <a className="dropdown-item" href="a">
-              Dropdown link
-            </a>
-            <a className="dropdown-item" href="b">
-              Dropdown link
-            </a>
-          </div>
-        </div>
-      );
+export default function CommandPalette(props) {
+  const chosenColor = props.palette.color;
+  const setColor = props.palette.setColor;
+
+  const handleButtonPress = (event) => setColor(event.target.id);
+
+  const createButtonGroup = (buttons) => {
+    return <div className="btn-group-sm p-3">{buttons}</div>;
+  };
+  const createColorButton = (color) => {
+    let className = "myCircle";
+    if (color === chosenColor) {
+      className += " selected";
     }
     return (
-      <div className="btn-group-sm p-3">
-        <button type="button" className="btn btn-outline-secondary">
-          <Image src={icon} altText={altText} />
-        </button>
-      </div>
+      <button
+        id={color}
+        className={className}
+        style={{ backgroundColor: color }}
+        onClick={handleButtonPress}
+      ></button>
+    );
+  };
+  const createIconButton = (icon, altText, onClick) => {
+    return (
+      <button
+        type="button"
+        className="btn btn-outline-secondary rounded-circle"
+        onClick={onClick}
+      >
+        <Image src={icon} altText={altText} />
+      </button>
     );
   };
 
+  const clearGrid = () => {
+    setColor(props.palette.clearColor);
+  };
+
+  let redButton = createColorButton("red");
+  let greenButton = createColorButton("green");
+  let clearButton = createIconButton(TrashFill, "clear", clearGrid);
+
   return (
     <div className="btn-toolbar m-auto" role="group">
-      {createCommand(PencilFill, "poop", true)}
-      {createCommand(TrashFill, "poop")}
+      {createButtonGroup([redButton, greenButton])}
+      {createButtonGroup([clearButton])}
     </div>
   );
 }
